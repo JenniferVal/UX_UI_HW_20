@@ -1,34 +1,38 @@
 body{
     background-color: #FFF6F4;
 }
+.header{
+    position: absolute;
+    width: 1400px;
+    height: 84px;
+}
 .nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
+    
+    left: 0px;
+    top: 0px;
     list-style: none;
     justify-content: center;
    
 }
-.nav-item{
-    color: #0000;
+.navbar-light .navbar-nav .nav-link {
+    color: red;
 }
+
 .li {
     display: list-item;
     text-align: -webkit-match-parent;
     color: #0000;
-    }
+}
 
 .nav-link{
+    color:;
     display: block;
     padding: .5rem 1rem;
-    color: ;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    /* text-decoration: none; */
+    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; */
 }
-}
-.nav ul li a {
-    text-decoration: none;
+.nav ul li a { */
+    /* text-decoration: none; */
     padding: 10px 20px;
     display: block;
     color: #0000;
@@ -36,9 +40,11 @@ body{
     
 }
 .Jumbotron{
-    max-width: 100%;
+    
     height: 558px;
     background: url(../Images/Background_image.png);
+    background-repeat: no-repeat;
+    
 }
 .display-4{
     text-align: center;
@@ -49,22 +55,25 @@ body{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16pt;
+    
 }
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20pt;
     font-style: italic;
     letter-spacing: 0.05em;
-    line-height: 23px;
     font-weight: 500;
     text-align: center;
+    padding: 570;
 
 }
-img{
+.affinity{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 990px;
+    height: 555px;
+    
 }
 p{
     top: 791px;
@@ -75,4 +84,77 @@ p{
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;  
+    padding: 102px;
+}
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 23px;
+    text-align: center;
+    font-weight: normal;
+}
+.caption text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+}
+.ProblemStatement{
+    background-image: url(../Images/Background_image.png);
+
+}
+.iterations{
+    height: 570px;
+    width: auto;
+}
+
+.cards {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    padding: 16px;
+    text-align: left;
+
+   
+ }
+.FirstHalf{
+    
+    
+    display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.SecondHalf{
+
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    
+}
+.ThirdHalf{
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    
+}
+.Prototype{
+    height: 1314px;
+    width: auto;
 }
